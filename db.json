@@ -1,0 +1,76 @@
+{
+    "accommodations": [
+      {
+        "id": "1",
+        "name": "Skyline View Inn",
+        "location": "123 Mountain Road",
+        "description": "A cozy inn with a stunning mountain view.",
+        "price_per_night": 120.00,
+        "availability": [
+          {
+            "date": "2024-08-20",
+            "available": true
+          },
+          {
+            "date": "2024-08-21",
+            "available": false
+          }
+        ],
+        "photos": [
+          "url_to_photo1.jpg",
+          "url_to_photo2.jpg"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "hashed_password", 
+        "document_uploaded": true,
+        "document_url": "url_to_document.jpg"
+      }
+    ],
+    "bookings": [
+      {
+        "id": "1",
+        "user_id": "1",
+        "accommodation_id": "1",
+        "check_in_date": "2024-08-20",
+        "check_out_date": "2024-08-21",
+        "payment_status": "paid"
+      }
+    ],
+    "payments": [
+      {
+        "id": "1",
+        "user_id": "1",
+        "amount": 120.00,
+        "transaction_id": "txn_123456789",
+        "status": "success",
+        "date": "2024-08-16"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "1",
+        "user_id": "1",
+        "accommodation_id": "1",
+        "rating": 5,
+        "comment": "Excellent stay with amazing views!",
+        "date": "2024-08-16"
+      }
+    ],
+    "social_media_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/skylinebnb"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/skylinebnb"
+      }
+    ]
+  }
+  
